@@ -1,0 +1,168 @@
+
+CID    ARTIST                         YEARRELEASED
+------ ------------------------------ ------------
+C01251 Alice Stein                            2018
+
+
+NAME                                    
+----------------------------------------
+CD City Musicophiles
+CD Headquarters
+CDs R Us
+
+
+COUNT(CID) YEARRELEASED
+---------- ------------
+         2         2010
+         1         2012
+         3         2015
+         2         2016
+         1         2017
+         2         2018
+
+6 rows selected. 
+
+
+ARTIST                         AVG(PRICE)
+------------------------------ ----------
+Kim Robinson                        10.99
+Alice Stein                         14.99
+Donnie White                        17.49
+Joey Van                            19.99
+
+
+   STOREID SUM(QUANTITY)
+---------- -------------
+         5             3
+         8             3
+         2             4
+         9             4
+         7             4
+         1             6
+        10             8
+         3            11
+         4            12
+
+9 rows selected. 
+
+
+   STOREID ORDERDATE NAME                                            SID
+---------- --------- ---------------------------------------- ----------
+         1 08-APR-22 CDs R Us                                          1
+         1 12-APR-22 CDs R Us                                          1
+         2 01-APR-22 Smithtown CDs                                     2
+         3 01-APR-21 Three Rivers Listeners                            3
+         3 04-APR-21 Three Rivers Listeners                            3
+         9 15-APR-21 Oregon CD City                                    9
+
+6 rows selected. 
+
+
+NAME                                     ST TITLE                         
+---------------------------------------- -- ------------------------------
+CDs R Us                                 NY Short Songs                   
+CDs R Us                                 NY Short Songs                   
+CDs R Us                                 NY Chicago Tunes                 
+CDs R Us                                 NY New York Tunes                
+CDs R Us                                 NY Space Funk                    
+CDs R Us                                 NY Space Rock                    
+CDs R Us                                 NY Space Jazz                    
+CDs R Us                                 NY Preceptance                   
+CDs R Us                                 NY Postceptance                  
+CDs R Us                                 NY Acceptance                    
+CDs R Us                                 NY Long Songs                    
+
+NAME                                     ST TITLE                         
+---------------------------------------- -- ------------------------------
+CDs R Us                                 NY Short Songs                   
+CDs R Us                                 NY Space Boomer                  
+CDs R Us                                 NY Chicago Tunes                 
+CDs R Us                                 NY New York Tunes                
+CDs R Us                                 NY Space Funk                    
+CDs R Us                                 NY Space Rock                    
+CDs R Us                                 NY Space Jazz                    
+CDs R Us                                 NY Preceptance                   
+CDs R Us                                 NY Postceptance                  
+CDs R Us                                 NY Acceptance                    
+CDs R Us                                 NY Long Songs                    
+
+NAME                                     ST TITLE                         
+---------------------------------------- -- ------------------------------
+CDs R Us                                 NY Long Songs                    
+CDs R Us                                 NY Acceptance                    
+CDs R Us                                 NY Postceptance                  
+CDs R Us                                 NY Preceptance                   
+CDs R Us                                 NY Space Jazz                    
+CDs R Us                                 NY Space Rock                    
+CDs R Us                                 NY Space Funk                    
+CDs R Us                                 NY New York Tunes                
+CDs R Us                                 NY Chicago Tunes                 
+CDs R Us                                 NY Space Boomer                  
+CDs R Us                                 NY Space Boomer                  
+
+NAME                                     ST TITLE                         
+---------------------------------------- -- ------------------------------
+Smithtown CDs                            NY Long Songs                    
+Smithtown CDs                            NY Short Songs                   
+Smithtown CDs                            NY Space Boomer                  
+Smithtown CDs                            NY Chicago Tunes                 
+Smithtown CDs                            NY New York Tunes                
+Smithtown CDs                            NY Space Funk                    
+Smithtown CDs                            NY Space Rock                    
+Smithtown CDs                            NY Space Jazz                    
+Smithtown CDs                            NY Preceptance                   
+Smithtown CDs                            NY Postceptance                  
+Smithtown CDs                            NY Acceptance                    
+
+NAME                                     ST TITLE                         
+---------------------------------------- -- ------------------------------
+Smithtown CDs                            NY Long Songs                    
+Smithtown CDs                            NY Short Songs                   
+Smithtown CDs                            NY Space Boomer                  
+Smithtown CDs                            NY Chicago Tunes                 
+Smithtown CDs                            NY New York Tunes                
+Smithtown CDs                            NY Space Funk                    
+Smithtown CDs                            NY Space Rock                    
+Smithtown CDs                            NY Space Jazz                    
+Smithtown CDs                            NY Preceptance                   
+Smithtown CDs                            NY Acceptance                    
+Smithtown CDs                            NY Postceptance                  
+
+55 rows selected. 
+
+
+TITLE                            QUANTITY
+------------------------------ ----------
+Preceptance                             4
+Acceptance                              4
+Space Jazz                              4
+New York Tunes                          4
+Postceptance                            4
+Postceptance                            3
+Short Songs                             3
+Long Songs                              3
+Space Rock                              3
+Preceptance                             3
+Acceptance                              2
+
+TITLE                            QUANTITY
+------------------------------ ----------
+Short Songs                             2
+Preceptance                             2
+Postceptance                            2
+Space Jazz                              2
+Acceptance                              2
+Preceptance                             1
+Space Jazz                              1
+Space Jazz                              1
+Chicago Tunes                           1
+New York Tunes                          1
+Postceptance                            1
+
+TITLE                            QUANTITY
+------------------------------ ----------
+New York Tunes                          1
+Preceptance                             1
+
+24 rows selected. 
+

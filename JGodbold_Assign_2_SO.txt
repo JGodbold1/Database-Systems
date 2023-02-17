@@ -1,0 +1,87 @@
+
+Table SHIPMENT dropped.
+
+
+Table DRIVER dropped.
+
+
+Table ROUTE dropped.
+
+
+Table DRIVER created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table ROUTE created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+Table SHIPMENT created.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+DID NAME                 CITY                      HOURS
+--- -------------------- -------------------- ----------
+123 Jayden Godbold       Chicago                      20
+111 Eric Schwabe         Denver                       40
+222 Prof Joe             Toronto                      82
+333 Amber Settle         Atlanta                      99
+
+
+RID    REGION              
+------ --------------------
+123456 North America       
+141414 South America       
+202020 Europe              
+
+
+DRI ROUTEI SHIPDATE 
+--- ------ ---------
+333 123456 01-JAN-21
+333 141414 02-JAN-21
+333 202020 03-JAN-21
+222 123456 01-JAN-21
+111 141414 01-JAN-21
+123 202020 01-JAN-21
+
+6 rows selected. 
+
+
+Commit complete.
+
